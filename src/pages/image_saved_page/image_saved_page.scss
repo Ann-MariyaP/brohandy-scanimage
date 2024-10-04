@@ -1,0 +1,122 @@
+$primary_clr: #415fe2;
+$white: #ffffff;
+$quinary: #ecf4fb;
+$Grey-20: #f9f9f9;
+
+.OCR_button {
+  color: $primary_clr;
+  background-color: $white;
+  border-color: $primary_clr;
+  font-size: 16px;
+  font-weight: 400;
+  width: 100%;
+  border-radius: 0%;
+  margin-top: 10px;
+  box-shadow: none !important;
+  //  outline: none !important;
+  line-height: 19.2px;
+  &:focus,
+  &:hover {
+    color: $primary_clr;
+    border-color: $primary_clr;
+    background-color: $white;
+  }
+}
+.save_business_btn {
+  border-radius: 0px;
+  width: 100%;
+  font-size: 16px;
+  line-height: 19.2px;
+  box-shadow: none !important;
+  background-color: $primary_clr;
+}
+.captured_image {
+  background-color: #9d9d9d;
+  //   height: 459px;
+  //   margin-top: 30px;
+}
+
+//  ##### custom modal #####
+
+.business_modal {
+  justify-content: center;
+}
+.business_modal .modal-content {
+  border-radius: 23px;
+  border: none !important;
+  font-family: "Roboto", sans-serif;
+  padding-block: 1px;
+  width: 320px;
+  height: 182px;
+  border-radius: 24px !important;
+  background-color: $Grey-20;
+  box-shadow: 1px 2px 2px 0px #0000004d;
+}
+.close-btn {
+  position: absolute;
+  top: -37px;
+  right: -16px;
+  background: none;
+  border: none;
+  outline: none;
+  &:focus {
+    box-shadow: none;
+  }
+}
+.close-btn svg {
+  width: 28px;
+  height: 28px;
+  color: $quinary; /* icon Color */
+}
+.business_modal .modal-header {
+  border-bottom: none !important;
+}
+.business_modal .modal-footer {
+  border-top: none;
+}
+.modal_cancelBtn {
+  border: 1px solid $primary_clr;
+  background-color: $white;
+  color: #313131;
+  &:hover {
+    background-color: #0026cc;
+    color: $white;
+  }
+}
+.modal_submitBtn,
+.modal_cancelBtn {
+  border-radius: 32px;
+  font-size: 12px;
+  font-weight: 400;
+  width: 96px;
+  box-shadow: none !important;
+}
+.modal_submitBtn {
+  background-color: $primary_clr;
+}
+.modal_input {
+  border-radius: 28px;
+  font-size: 7.68px;
+  font-weight: 400;
+  border: 0.64px solid #cfc9c9;
+  padding-block: 10px;
+  &:focus {
+    box-shadow: none;
+    border: 0.64px solid #cfc9c9;
+  }
+}
+
+.modal_inputLabel {
+  font-size: 8px;
+  color: #5b5555;
+  line-height: 9.38px;
+  font-weight: 400;
+}
+
+ .pics{
+  width:"100%";
+  overflow-x:scroll;
+  &::-webkit-scrollbar {
+            display: none;
+          }
+ }

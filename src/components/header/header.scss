@@ -1,0 +1,14 @@
+.main_header{
+ position: fixed;
+  top: 0px;
+  height: 39px;
+  width: 100%;
+  // border: 1px solid;
+  background-color: #ffffff; /* Adjust background color as needed */
+  // border-top: 1px solid #e0e0e0; /* Optional: add a top border */
+  display: flex;
+
+  padding: 2px 4px; /* Adjust padding as needed */
+
+  z-index: 998;
+}

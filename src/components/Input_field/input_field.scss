@@ -1,0 +1,35 @@
+$black_70:#5b5555;
+$inputBorder:#cfc9c9;
+
+.input_pwdlabel {
+  color: $black_70;
+  // padding: 6.4px;
+  justify-content: start;
+  font-weight: 400;
+  font-size: 8px;
+  font-family: "Roboto", sans-serif;
+}
+.input_pswd {
+  border: 0.64px solid $inputBorder;
+  border-radius: 28px;
+  padding: 10.24px;
+  height: 38px;
+  box-shadow: none !important;
+  font-size: 8px;
+  color: $inputBorder;
+  border-right:none;
+  &:focus {
+    border: 0.64px solid $inputBorder;
+    border-right:none;
+  }
+}
+.pwd_icon_part{
+ border: 0.64px solid $inputBorder;
+  border-radius: 28px;
+  background-color: #ffffff;
+}
+.eye_icon{
+color: #C5C5C5;
+font-size: 22px;
+padding: 0px;
+}
